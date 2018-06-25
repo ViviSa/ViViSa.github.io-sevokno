@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'BloggerSans-MediumItalic';
+  src: url('BloggerSans-MediumItalic.eot?#iefix') format('embedded-opentype'),  url('BloggerSans-MediumItalic.otf')  format('opentype'),
+	     url('BloggerSans-MediumItalic.woff') format('woff'), url('BloggerSans-MediumItalic.ttf')  format('truetype'), url('BloggerSans-MediumItalic.svg#BloggerSans-MediumItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

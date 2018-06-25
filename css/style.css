@@ -1,0 +1,1980 @@
+@font-face {
+  font-family: 'BloggerSans-Medium';
+  src: url('../fonts/BloggerSans-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/BloggerSans-Medium.otf')  format('opentype'),
+	     url('../fonts/BloggerSans-Medium.woff') format('woff'), url('../fonts/BloggerSans-Medium.ttf')  format('truetype'), url('../fonts/BloggerSans-Medium.svg#BloggerSans-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BloggerSans-Italic';
+  src: url('../fonts1/BloggerSans-Italic.eot?#iefix') format('embedded-opentype'),  url('../fonts1/BloggerSans-Italic.otf')  format('opentype'),
+	     url('../fonts1/BloggerSans-Italic.woff') format('woff'), url('../fonts1/BloggerSans-Italic.ttf')  format('truetype'), url('../fonts1/BloggerSans-Italic.svg#BloggerSans-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BloggerSans-Bold';
+  src: url('../fonts2/BloggerSans-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts2/BloggerSans-Bold.otf')  format('opentype'),
+	     url('../fonts2/BloggerSans-Bold.woff') format('woff'), url('../fonts2/BloggerSans-Bold.ttf')  format('truetype'), url('../fonts2/BloggerSans-Bold.svg#BloggerSans-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BloggerSans-MediumItalic';
+  src: url('../fonts3/BloggerSans-MediumItalic.eot?#iefix') format('embedded-opentype'),  url('../fonts3/BloggerSans-MediumItalic.otf')  format('opentype'),
+	     url('../fonts3/BloggerSans-MediumItalic.woff') format('woff'), url('../fonts3/BloggerSans-MediumItalic.ttf')  format('truetype'), url('../fonts3/BloggerSans-MediumItalic.svg#BloggerSans-MediumItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BloggerSans';
+  src: url('../fonts4/BloggerSans.eot?#iefix') format('embedded-opentype'),  url('../fonts4/BloggerSans.otf')  format('opentype'),
+	     url('../fonts4/BloggerSans.woff') format('woff'), url('../fonts4/BloggerSans.ttf')  format('truetype'), url('../fonts4/BloggerSans.svg#BloggerSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BloggerSans-LightItalic';
+  src: url('../fonts5/BloggerSans-LightItalic.eot?#iefix') format('embedded-opentype'),  url('../fonts5/BloggerSans-LightItalic.woff') format('woff'), 
+       url('../fonts5/BloggerSans-LightItalic.ttf')  format('truetype'), url('../fonts5/BloggerSans-LightItalic.svg#BloggerSans-LightItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Header
+-------------------------------------------------------------- */
+
+header{
+    background: url(../img/main.jpg) no-repeat center top;
+    max-width: 100%;
+}
+
+.text{
+    padding-top: 29px;
+    font-family: 'BloggerSans';
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    line-height: 27px;
+}
+
+.logo{
+    text-align: center;
+    padding-top: 12px;
+}
+
+.number{
+    padding-top: 29px;
+    padding-bottom: 78px;
+    list-style-type: none;
+    font-family:'BloggerSans';
+}
+
+.number li{
+    color: white;
+    text-align: right;
+}
+
+
+/*--------------------------------------------------------------
+## Меню
+--------------------------------------------------------------*/
+.menuIcon{
+    display: none;
+} 
+.menu{
+    position: absolute;
+    z-index: 1;
+    bottom: 15px; 
+    max-width: 943px;
+    width: 100%;
+    height: 44px;
+    border-radius:5px;
+    background: #ffb400; 
+    text-align: center;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #000;
+    line-height: 23px;
+}
+
+.menu li a:hover{
+    text-decoration: none;
+}
+
+.menu ul li a{
+    margin: 6px 11px 2px 26px;
+    color: black;
+    font-size: 20px;
+    font-family: 'BloggerSans';
+}
+
+
+/*--------------------------------------------------------------
+## Блок в меню Хочу бесплатный проект
+--------------------------------------------------------------*/
+
+#active {
+    position: relative; 
+    top: -12px;
+    z-index: 1;
+    max-width: 330px;
+    width: 100%; 
+    height: 69px; 
+    margin: 0;
+    padding: 19px 38px 0px 38px; 
+    border-bottom: 0px;
+    font-size: 23px;
+    font-family: 'BloggerSans-Bold';
+    background: url(../img/menuActive.png); 
+    opacity: 1;
+}
+
+#active span{
+    display: inline;
+    border-bottom: 1px solid #000;
+    line-height: 23px;
+}
+
+
+/*--------------------------------------------------------------
+## Блок Прерывистая синяя рамка
+--------------------------------------------------------------*/
+
+#second{
+    height: 360px;
+}
+
+#block{
+    position: absolute; 
+    z-index: 1;
+    width: 100%;
+    max-width: 942px;
+    height: auto;
+    margin: 0;
+    margin-top: 20px;
+    border: 3px solid #0d8ae2;
+    border-radius:10px;
+}
+
+.block{
+    position: relative;
+    top: -20px;
+    z-index: 2;
+}
+
+.block__img {
+    text-align: center;
+}
+
+.block__img-first{
+    margin-left: 1px;
+}
+
+.block__img-first img{
+    text-align: left;
+}
+
+.block__img img{
+    margin-bottom: 5px;
+}
+
+.block__img p{
+    font-size: 15px;
+    font-family: 'BloggerSans-Bold';
+    text-align: center;
+    line-height: 15px;
+}
+
+.block__img-second{
+    z-index: 3;
+}
+
+.block__img-third{
+    margin-right: 213px;
+}
+
+.block__two{
+    position: relative;
+    margin-top: -70px;
+    margin-bottom:-21px;
+    display: flex;
+}
+
+.block__img-fourth{
+    margin-left: 137px;
+}
+
+.block__img-fife{
+    margin-left: 27px; 
+    margin-top: 5px;
+}
+
+.block__img-six{
+    margin-left: -3px;
+}
+
+
+/*--------------------------------------------------------------
+## Кнопка Заказать строительство дома!
+--------------------------------------------------------------*/
+
+.order{
+    padding-top: 30px;
+}
+
+.order button{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 8px 227px;
+    margin: 0;
+    border: 1px solid #1489d9;
+    border-radius: 10px 10px 0px 0px;
+    background: #0d8ae2;
+    font-size: 35px;
+}
+
+.order button p{
+    border-bottom: 1px solid white;
+    line-height: 38px;
+}
+
+.order p{
+    margin-bottom: 5px;
+    font-family: 'BloggerSans-Bold';
+    color:white;
+    cursor: pointer;
+}
+
+
+/*--------------------------------------------------------------
+## Слайдер Наши работы
+--------------------------------------------------------------*/
+
+#ourWorks{
+    padding-bottom: 70px;
+    background: url(../img/ourWorks.jpg) no-repeat center top;
+}
+
+.ourWorks__click-left, .ourWorks__click-right{
+    position: absolute;
+    padding-top:102px;
+    cursor: pointer;
+}
+
+.ourWorks__click-right{
+    left: 942px;
+    top: 0px;
+}
+
+.ourWorks p, .doYouNow p{
+    padding-top: 3px;
+    padding-bottom: 14px;
+    margin: 0;
+    font-size: 45px;
+    color: white;
+    font-family: 'BloggerSans';
+    text-align: center;
+    font-weight: bold;
+}
+
+.sliderfirst{
+    max-width:812px;
+    margin: 0px 0px 0px 66px;
+}
+
+.sliderfirst .slick-slide {
+    width: 282px;
+}
+
+.work{
+    position: relative;
+    top: 0;
+    left: 0px;
+    width: 280px;
+}
+
+.work__foto{
+    width: 238px;
+    border: 4px solid #ffd200;
+}
+
+.work__foto img{
+    width: 230px;
+}
+
+.work__text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 238px;
+    height: 100%;
+    padding-top: 40px;
+    background: rgba(249,212,37,0.8);
+    text-align: center;
+    opacity: 0;
+    transform: scale(0);
+    transition: all .4s;
+}
+
+.work:hover .work__text{
+    opacity: 1;
+    top: 0;
+    transform: scale(1);
+}
+
+.work__text p{
+    color: black;
+    font-size: 16px;
+    font-family: 'BloggerSans-Bold';
+    text-align: center;
+}
+
+.work__text span{
+    color: black;
+    font-size: 14px;
+    font-family: 'BloggerSans-Bold';
+    text-align: center; 
+}
+
+
+/*--------------------------------------------------------------
+## Кнопка Хочу проехаться по всем вашим строящимся объктам
+--------------------------------------------------------------*/
+
+#buttonOne{
+    margin-top: -60px;
+}
+
+.buttonOne{
+    text-align: center;
+}
+
+.buttonOne button{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border: 1px solid #ffd200; 
+    border-radius: 10px;
+    background: #ffd200;
+}
+
+.buttonOne-blue button {
+    padding: 15px 66px 0px;
+    font-size: 28px;
+}
+
+.buttonOne button p{
+    border-bottom: 1px solid #000;
+    color: black;
+    font-family: 'BloggerSans-Bold';
+    line-height: 30px;
+}
+/*--------------------------------------------------------------
+## Заглавие Наши проекты
+--------------------------------------------------------------*/
+
+.ourProjects p{
+    color: black;
+    font-size: 45px;
+    font-family: 'BloggerSans';
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*--------------------------------------------------------------
+## Слайдер Наши проекты
+--------------------------------------------------------------*/
+
+.project__foto img{
+    width: 190px;
+    border: 4px solid #0d8ae2;
+}
+
+.slider 
+.slick-slide {
+    padding-top:20px;
+}
+
+.slider 
+.slick-center {
+    padding-top:0;
+}
+
+.slider 
+.slick-center img {
+    width:230px;
+}
+
+.slider 
+.slick-center p{
+    font-size: 18px;
+}
+
+.slider 
+.slick-center span{
+    font-size: 20px;
+}
+
+.slider{
+    max-width:742px;margin: 0px 0px 0px 75px;
+} 
+
+.project__next, 
+.project__prev, 
+.doYouNow__prev, 
+.doYouNow__next{
+    position: absolute;
+    cursor: pointer;
+}
+
+.project__foto{
+    margin-left: 44px;
+    text-align: center;
+}
+
+.project__foto img{
+    text-align: center;
+}
+
+.project__text{
+    padding-right: 37px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.project__text p{
+    margin: 0;
+    color: black;
+    font-size: 16px;
+    font-family: 'BloggerSans-Bold';
+}
+
+.project__foto span{
+    color: black;
+    font-size: 18px;
+    font-family: 'BloggerSans-Bold';
+}
+
+.project__foto h6{
+    font-size: 18px;
+    font-family: 'BloggerSans-LightItalic';
+}
+
+.project__prev, .project__next{
+    top:80px;
+}
+
+.project__prev{
+    left: 77px;
+}
+
+.project__next{
+    right: 80px;
+}
+
+
+/*--------------------------------------------------------------
+## Кпока Разработать уникальный проект
+--------------------------------------------------------------*/
+
+.buttonTwo{
+    text-align: center;
+}
+
+.buttonTwo button{
+    margin-top: 15px;
+    margin-bottom: 35px;
+    border: 1px solid #0d8ae2;
+    border-radius: 10px;
+    background: #0d8ae2;
+}
+
+.buttonTwo-blue button {
+    padding: 15px 202px 0px;
+    font-size: 28px;
+}
+
+.buttonTwo button p{
+    border-bottom: 1px solid white;
+    color: white;
+    line-height: 30px;
+    font-family: 'BloggerSans-Bold';
+}
+
+
+/*--------------------------------------------------------------
+## Слайдер А вы знали?
+--------------------------------------------------------------*/
+
+#doYouNow{
+    background: url(../img/doYouKnow.jpg) no-repeat center top;
+}
+.sliderDoYouKnow{
+    display: flex;
+    max-width: 810px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+.doYouNow__text{
+    max-width: 203px;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.doYouNow__foto{
+    height: 125px;
+    border: 3px solid #ffd200;
+}
+
+.doYouNow__foto p{
+    margin: 0;
+    padding-left: 5px; 
+    padding-top: 5px;
+    color: white; 
+    font-size: 15px;
+    font-family: 'BloggerSans-Bold';
+}
+
+.doYouNow__more p{
+    max-width: 118px;
+    width: 100%;
+    margin-left:90px;
+    margin-top: -10px;
+    background:  #ffd200;
+    color: black;
+    font-size: 15px;
+    font-family: 'BloggerSans-Bold';
+    text-align: center;
+}
+
+.doYouNow__prev{
+    top: 50px;
+}
+.doYouNow__next{
+    right: 19px;
+    top: 50px;
+}
+
+
+/*--------------------------------------------------------------
+## Кнопка Хочу работать с профессионалами
+--------------------------------------------------------------*/
+
+#buttonOne__two{
+    margin-top: -69px;
+}
+
+.buttonPro{
+    text-align: center;
+}
+
+.buttonPro button{ 
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border: 1px solid #ffd200;
+    border-radius: 10px;
+    background: #ffd200;
+}
+
+.buttonPro button {
+    padding: 15px 188px 0px;
+    font-size: 28px;
+}
+
+.buttonPro button p{
+    border-bottom: 1px solid #000;
+    color: black;
+    font-family: 'BloggerSans-Bold';
+    line-height: 30px;
+}
+
+
+/*--------------------------------------------------------------
+## Заглавие Наша команда 
+--------------------------------------------------------------*/
+.speech{
+    position: relative;
+    margin: 0px 0px 0px 0px;
+}
+
+.speech p{
+    font-size: 45px;
+    font-family: 'BloggerSans';
+    font-weight: bold;
+    text-align: center;
+ }
+
+/*--------------------------------------------------------------
+## Слайдер Наша команда 
+--------------------------------------------------------------*/
+.sliderTeam{
+    max-width:810px;
+    margin: 0px 0px 0px 89px;
+    height: 300px;
+}
+
+.team{
+    font-family: 'BloggerSans-Bold';
+    text-align: center;
+}
+
+.team__foto{
+    position: relative;
+    z-index: -1;
+    top: 30px;
+    width: 230px;
+    height: 207px;
+    border: 4px solid #1489d9;
+    text-align: center;
+}
+
+.team__foto img{
+    position: relative;
+    top: -30px;
+    z-index: 99;
+}
+
+.team__foto-move img{
+    position: relative;
+    right: 11px;
+}
+
+.team__foto-ignat img{
+    position: relative;
+    right: -44px;
+}
+
+.team__text{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    text-align: center;
+    overflow:hidden;
+}
+
+.sliderTeam .slick-list{
+    padding-bottom: 20px;
+}
+
+.team__text p{
+    color: #1489d9;
+}
+
+p span {
+    color: #404b55;
+}
+
+.carousel__prev, .carousel__next {
+    position: relative;
+    padding-top: 83px;
+    cursor: pointer;
+}
+
+.carousel__prev{
+    left:15px;
+}
+
+.carousel__next {
+    right: -30px;
+}
+/*--------------------------------------------------------------
+## Все еще не уверенны в выборе?
+--------------------------------------------------------------*/
+#choice{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.choice{
+    text-align: center;
+}
+
+.choice p{
+    font-family: 'BloggerSans-Bold';
+    font-size: 16px;
+    line-height: 18px;
+}
+
+#word{
+    height:189px;
+}
+
+.word__text span{
+    position:relative;
+    z-index: 1;
+    padding: 0px 44px;
+    background: white; 
+}
+
+.word__button{
+    position:absolute;
+    left:0;
+    right:0;
+    top:85px;
+    width:81%;
+    margin:20px auto; 
+    margin:0 auto;
+    display:inline-block;
+    padding:5px;
+    border:2px solid #ffd200;
+    border-radius: 15px;
+    text-align:center;
+    background:#fff; 
+}
+
+.word__text p, .word__text span{
+    font-size: 45px;
+    color: black;
+    line-height: 54px;
+    font-family: 'BloggerSans';
+    font-weight: bold;
+    text-align: center;
+}
+
+.word__button button{
+    position: relative;
+    top: 20px;
+    padding: 12px 138px 0px;
+    border: 1px solid #0d8ae2;
+    border-radius: 10px;
+    background: #0d8ae2;
+}
+
+.word__button button p {
+    border-bottom: 1px solid white;
+    font-size: 28px;
+    color: white;
+    font-family: 'BloggerSans-Bold'; 
+    line-height: 30px;
+}
+/*--------------------------------------------------------------
+## карта
+--------------------------------------------------------------*/
+
+.map {
+    height: 350px;
+    width: 900px;
+    margin-right: -59px; 
+    margin-bottom: 65px;
+    margin-top: 30px;
+    border: 4px solid #1489d9;
+}
+
+.map__text {
+    padding: 44px 20px;
+    margin-left: 31px;
+    font-size: 15px;
+    color: black;
+    font-family: 'BloggerSans-Bold';
+}
+
+.map-responsive {
+    position: absolute;
+    left: -45px;
+    top: 13px;
+}
+
+.map__button button {
+    padding: 10px 29px;
+    border: none;
+    border-radius: 5px;
+    background: #ffd200;
+    cursor: pointer;
+}
+
+.map__button button p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    color: black;
+    line-height: 27px;
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.5);
+    line-height: 15px;
+}
+
+#footer{
+    background: url(../img/footer.jpg);
+}
+
+.footer__img img{
+    margin-top: -32px;
+    margin-left: 20px;
+}
+
+.footer p{
+    margin-left: 170px;
+    font-size: 20px;
+    font-family: 'BloggerSans';
+    color: white;
+    padding-top: 8px;
+}
+
+/*--------------------------------------------------------------
+## Responsive
+--------------------------------------------------------------*/
+
+/*iPad*/
+@media only screen
+and (min-device-width: 480px)
+and (max-device-width: 768px) {
+/*  Номер телефона */
+    .number{
+        padding-bottom: 112px;
+    }
+
+    .number li{
+        margin-left: -12px;
+    }
+
+/* Меню */
+    .menu{
+        width: 96%;
+        bottom: 41px;
+    }
+
+    .menu ul li a{
+        margin: 6px 9px 2px 14px;
+        font-size: 16px;
+    }
+
+    #active{
+        font-size: 14px;
+    } 
+
+/* Синий блок с шестью картинками */
+    #block{
+        width: 93%;
+    }
+
+/* Кнопка заказать строительство дома */
+    .order button{
+        padding: 15px 161px;
+        font-size: 28px;
+    }
+
+    .block__two{
+        margin-left: -38px;
+    }
+/*Слайдер Наши работы */
+    .ourWorks__click-left, .ourWorks__click-right{
+        text-align: center;
+    }
+
+    .left{
+        padding-left: 22px;
+        padding-bottom: 40px;
+    }
+
+    .ourWorks__click-right{
+        padding-left: 56px;
+        left: 625px;
+        top: 0px;
+    }
+
+    .sliderfirst {
+        max-width: 524px;
+        margin: 0px 0px 0px 84px;
+    } 
+
+/*Слайдер Наши проекты */
+    .slider{
+        width: 536px;
+        margin: 0px 93px 0px 78px;
+    }
+
+    .project__prev{
+        left: 64px;
+    }
+
+    .project__next{
+        right: 64px;
+    }
+
+/* Кнопка хочу проехаться по всем вашим строящимся объктам */
+    .buttonTwo-blue button {
+        padding: 15px 131px 0px;
+        font-size: 28px;
+    }
+
+/* Слайдер а Вы знаете */
+    .sliderDoYouKnow{
+        max-width: 575px;
+    }
+
+    .doYouNow__prev{
+        left: 29px;
+    }
+
+    .doYouNow__next{
+        right: 29px;
+    }
+
+/* Слайдер наша команда*/
+    .team__foto{
+        margin-left: 265px;
+    }
+
+    .sliderTeam{
+        max-width: 510px;
+    }
+
+    .team__text p{
+        margin-bottom: 35px;
+    }
+
+    .carousel__prev{
+        padding-top: 115px;
+        text-align: center;
+    }
+
+    .carousel__prev img{
+        margin-bottom: 58px;
+        padding-left: 0px;
+    }
+
+    .carousel__next{
+        margin-bottom: 25px;
+        padding-top: 115px;
+        padding-left: 33px;
+        text-align: center;
+    }
+
+/* Мы одни из немногих, кто имеет сертификаты */
+    #word{
+        height: 231px;
+    }
+    .word__text p, .word__text span{
+      font-size: 35px;
+    }
+
+/* Карта */
+    .map{
+        width: 691px;
+    }
+
+    .map__text{
+        margin-left:26px;
+    }
+
+    .map-responsive{
+        left: -43px;
+    }
+
+    .map-responsive iframe{
+        position:absolute; 
+        width: 493px;
+        height: 323px;   
+    }
+}
+
+/*Smartphones*/
+@media (max-width: 480px) {
+
+    header{
+        background-size: cover; 
+    }
+
+/*  Номер телефона */
+    .number li{
+        text-align: center;
+        margin-right: 38px;
+    }
+
+/* Меню */
+    /* .menu{
+        width: 92%;
+        bottom: -8px;
+    }
+    
+    .menu ul li a{
+        margin: 6px 1px 1px 1px;
+        font-size: 10px;
+    }
+    
+    #active{
+        max-width: 119px; 
+        padding: 10px 1px 0px 1px;
+        font-size: 13px;
+    } */
+
+/* Синий блок с шестью картинками */
+    #second{
+        height: 1037px;
+        margin-top: 20px;
+    }
+    #block{
+        width: 92%;
+    }
+    .block__two{
+        margin-top: 3px;
+        margin-bottom:1px; 
+        margin-left: 103px;
+    }
+    .block__img-third{
+        margin-right: 0px;
+    }
+    .block__img-fourth, .block__img-fife{
+        margin-left: -15px;
+    }
+
+/* Кнопка заказать строительство дома */
+    .order button{
+        font-size: 16px;
+        padding: 5px 58.7px;
+    }
+
+/*Слайдер Наши работы */
+    .sliderfirst{
+        max-width: 240px;
+        margin: 0px 0px 0px 58px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .ourWorks__click-left, .ourWorks__click-right{
+        text-align: center;
+        padding-top: 103px;
+        padding-bottom: 10px;
+    }
+
+    .ourWorks__click-right{
+        left: 341px;
+    }
+
+    .ourWorks__click-left{
+        margin-left: -6px;
+        padding-right: 36px;
+    }
+
+    .left{
+        padding-bottom: 40px;
+    }
+
+/* Кнопка хочу проехаться по всем вашим строящимся объктам */
+    .buttonOne-blue button{
+        padding: 15px 45px 0px;
+        font-size: 16px;
+    }
+
+/* Кнопка Разработать уникальный проект */
+    .buttonTwo-blue button {
+        padding: 15px 53px 5px;
+        font-size: 16px;
+    }
+
+/* Кнопка Хочу работать с профессионалами */
+    .buttonPro button{
+        padding: 15px 46px 0px;
+        font-size: 16px;
+    }
+
+/* Слайдер Наши проекты */
+    .slider{
+        max-width: 266px;
+        margin: 0px 0px 0px 25px;
+    }
+
+    .project__foto{
+        margin-left: 38px;
+    }
+
+    .project__prev{
+        left: 22px;
+    }
+
+    .project__next {
+        right: 24px;
+    }
+
+/* Слайдер А вы знаете */
+    .sliderDoYouKnow{
+        max-width: 292px; 
+        margin: 0px 0px 0px 21px;
+    }
+
+    .doYouNow__text{
+        margin-right: 41px;
+    }
+
+    .doYouNow__prev{
+        left: 11px;
+    }
+
+    .doYouNow__next{
+        right: 14px;
+    }
+
+    .doYouNow__foto p{
+        font-size: 14px;
+    }
+
+/* Слайдер Наша команда */
+    .sliderTeam{
+        max-width: 251px;
+        margin: 0px 0px 0px 48px;
+    }
+
+    .team__text p{
+        margin-bottom: 35px;
+    }
+
+    .carousel__prev{
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .carousel__prev img{
+        padding-top: 120px;
+        padding-left: 0px;
+        margin-bottom: 55px;
+    }
+
+    .carousel__next{
+        padding-top: 120px;
+        text-align: center;
+    }
+
+    .speech p{
+        font-size: 35px;
+    }
+
+/* Мы одни из немногих, кто имеет сертификаты */
+    #word {
+        height: 213px;
+    }
+
+    .word__text p, 
+    .word__text span{
+        font-size: 29px;
+    }
+
+    .word__text span{
+        padding: 0px;
+    }
+
+    .word__button{
+        top: 141px;
+    }
+
+    .word__button button p{
+        font-size: 16px;
+    }
+
+    .word__button button{
+        padding: 12px 58px 0px;
+    }
+
+/* Карта */
+    .map-responsive iframe{
+        position:absolute;  
+        width: 333px;
+        height: 270px;  
+    }
+    .map-responsive{
+        position:relative;
+        left:0px;
+        padding-bottom:81.25%;
+        height:0;
+        overflow:hidden;
+    }
+    .map{
+        width: 340px;
+        height: 626px;
+        margin-top: 30px;
+        margin-right: 0px;  
+    }
+    .footer__img{
+        text-align: center;
+    }
+    .footer p{
+        margin-left: 0px;
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+    .container{
+        max-width: 970px;
+        max-height: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+@media /* (max-width: 992px) */
+/* only screen and (max-width: 992px) */
+/* (min-width: 767px) and (max-width: 992px) */
+only screen and (max-width: 992px) and (min-width: 768px) {
+
+    #block{
+        max-width: 702px;
+    }
+
+    .block__img-fourth {
+        margin-left: 83px; 
+  }
+    .block__img-fife{
+        margin-left: -10px; 
+    }
+    .menu{
+        bottom: 42px;
+    }
+
+    #active{
+        font-size: 14px;
+    }
+
+    .menu ul li a{
+        font-size: 14px;
+    }
+
+    .order button{
+        padding: 0px 203px;
+        font-size: 21px;
+    }
+
+    .sliderfirst{
+        max-width: 526px;
+    }
+
+    .ourWorks__click-right{
+        left: 654px;
+    }
+
+/* Наши проекты */
+    .buttonOne-blue button{
+        font-size: 21px;
+    }
+
+    .slider{
+        max-width: 550px;
+    }
+
+/* Наши проекты кнопки*/
+    .project__prev {
+        left: 34px;
+    }
+    .project__next {
+        right: 31px;
+    }
+
+/* Разработать уникальный проект */
+    .buttonTwo-blue button {
+        padding: 15px 189px 0px;
+        font-size: 21px;
+    }
+
+    .sliderDoYouKnow{
+        width: 600px;
+    }
+/* Хочу работать с профессионалами */
+    .buttonPro button {
+        padding: 15px 175px 0px;
+        font-size: 21px;
+    }
+/* Наша команда */
+    .sliderTeam{
+        width: 510px;
+    }
+/* Мы одни из немногих, кто имеет сертификаты
+и работает по ГОСТу */
+    .word__text p, .word__text span{
+        font-size: 30px;
+    }
+
+    .map{
+        width: 667px;
+    }
+
+    .map-responsive{
+        left:-52px;
+    }
+
+    .map-responsive iframe{
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 767px) and (min-width: 665px){
+    
+    #block{
+        width: 512px;
+    }
+
+    .block__img-fourth {
+        margin-left: 71px;
+    }
+
+    .block__img-fife{
+        margin-left: -35px;
+    }
+
+    .block__img-six {
+        margin-left: -33px;
+    }
+
+/* меню */
+    .menu{
+        bottom: 42px;
+    }
+
+    #active{
+        font-size: 14px;
+    }
+
+    .menu ul li a{
+        font-size: 14px;
+        margin: 6px 0px 2px 2px;
+    }
+
+/* Заказать строительство дома! */
+    .order button{
+        padding: 0px 108px;
+        font-size: 21px;
+    }
+
+    .sliderfirst{
+        width: 526px;
+        margin: 0px 0px 0px -8px;
+    }
+    .ourWorks__click-left{
+        right: 577px;
+    }
+    .ourWorks__click-right{
+        left: 567px;
+    }
+
+/* Наши проекты */
+    .buttonOne-blue button{
+        font-size: 21px;
+    }
+    .slider{
+        width: 550px;
+        margin: 0px 0px 0px -16px;
+    }
+
+/* Наши проекты кнопка правая*/
+    .project__next {
+        right: -41px;
+    }
+
+    .project__prev {
+        left: -34px;
+    }
+
+/* Разработать уникальный проект */
+    .buttonTwo-blue button {
+        padding: 15px 98px 0px;
+        font-size: 21px;
+    }
+
+    .sliderDoYouKnow{
+        width: 313px;
+    }
+
+/* Хочу работать с профессионалами */
+    .buttonPro button {
+        padding: 15px 90px 0px;
+        font-size: 21px;
+    }
+
+/* Наша команда */
+    .sliderTeam{
+        width: 485px;
+        margin: 0px 0px 0px 25px;
+    }
+
+/* Мы одни из немногих, кто имеет сертификаты
+и работает по ГОСТу */
+    .word__text p, 
+    .word__text span{
+        font-size: 23px;
+    }
+
+/* ОСтавить заявку */
+    .word__button button{
+        padding: 12px 61px 0px;
+        font-size: 21px;
+    }
+
+/* Карта */
+    .map{
+        width: 568px;
+    }
+
+    .map-responsive{
+        left:-52px;
+    }
+
+    .map-responsive iframe{
+        width: 400px;
+    }
+
+    .map__text{
+        margin-left: 336px;
+    }
+
+    #footer{
+        background-size: cover;
+    }
+
+    .footer p{
+        margin-left: 0px;
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 664px) and (min-width: 575px){
+
+    #block{
+        width: 512px;
+    }
+
+    .block__img-fourth {
+        margin-left: 71px;
+    }
+
+    .block__img-fife{
+        margin-left: -35px;
+    }
+
+    .block__img-six {
+        margin-left: -33px;
+    }
+
+/* меню */
+    .menu{
+        bottom: 42px;
+    }
+
+    #active{
+        font-size: 14px;
+    }
+
+    .menu ul li a{
+        font-size: 14px;
+        margin: 6px 0px 2px 2px;
+    }
+
+/* Заказать строительство дома! */
+    .order button{
+        padding: 0px 108px;
+        font-size: 21px;
+    }
+
+/* Наши работы */
+    .ourWorks__click-left{
+        left: -17px;
+    }
+
+    .sliderfirst{
+        width: 526px;
+        margin: 0px 0px 0px -8px;
+    }
+
+    .ourWorks__click-right{
+        left: 537px;
+    }
+
+/* Наши проекты */
+    .buttonOne-blue button{
+        font-size: 21px;
+    }
+
+    .slider {
+        width: 524px;
+        margin: 0px 0px 0px -9px;
+    }
+
+/* Наши проекты кнопка правая*/
+    .project__next {
+        right: -15px;
+    }
+
+    .project__prev {
+        left: -25px;
+    }
+
+/* Разработать уникальный проект */
+    .buttonTwo-blue button {
+        padding: 15px 98px 0px;
+        font-size: 21px;
+    }
+
+    .sliderDoYouKnow{
+        width: 313px;
+    }
+
+/* Хочу работать с профессионалами */
+    .buttonPro button {
+        padding: 15px 90px 0px;
+        font-size: 21px;
+    }
+
+/* Наша команда */
+    .sliderTeam{
+        width: 485px;
+        margin: 0px 0px 0px 25px;
+    }
+
+/* Мы одни из немногих, кто имеет сертификаты
+и работает по ГОСТу */
+    .word__text p, .word__text span{
+        font-size: 23px;
+    }
+
+/* ОСтавить заявку */
+    .word__button button{
+        padding: 12px 61px 0px;
+        font-size: 21px;
+    }
+
+/* Карта */
+    .map{
+        width: 500px;
+    }
+    .map-responsive{
+        left:-52px;
+    }
+    .map-responsive iframe{
+        width: 336px;
+    }
+    .map__text{
+        margin-left: 270px;
+    }
+    #footer{
+        background-size: cover;
+    }
+    .footer p{
+        margin-left: 0px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 575px) and (min-width: 550px){
+
+    header{
+        background-size: cover;
+    }
+
+    .number{
+        padding-bottom: 45px;
+    }
+
+    .number li{
+        text-align: center;
+    }
+
+    #second{
+        margin-top: 20px;
+        height: 1000px;
+    }
+
+    #block{
+        width: 492px;
+    }
+
+    .block__img-third{
+        margin-right: 0px;
+    }
+
+    .block__two{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .block__img-fourth {
+        margin-left: 176px;
+    }
+
+    .block__img-fife {
+        margin-left: 176px;
+    }
+
+    .block__img-six {
+        margin-left: 176px;
+    }
+
+/* меню */
+    .menu{
+        width: 96%;
+        bottom: -4px;
+    }
+
+    #active{
+        font-size: 14px;
+        padding: 19px 16px 0px 25px;
+    }
+
+    .menu ul li a{
+        font-size: 14px;
+        margin: 6px 0px 2px 2px;
+    }
+
+/* Заказать строительство дома! */
+    .order button{
+        padding: 0px 98px;
+        font-size: 21px;
+    }
+
+/* Наши работы */
+    .ourWorks__click-left{
+        left: 88px;
+    }
+
+    .sliderfirst{
+        width: 240px;
+        margin: 0px 0px 0px 143px;
+    }
+
+    .ourWorks__click-right{
+        left: 461px;
+    }
+
+/* Наши проекты */
+    .buttonOne-blue button{
+        font-size: 21px;
+    }
+
+    .slider {
+        width: 272px;
+        margin: 0px 0px 0px 104px;
+    }
+
+/* Наши проекты кнопка правая*/
+    .project__next {
+        right: 88px;
+    }
+
+    .project__prev {
+        left: 88px;
+    }
+
+/* Разработать уникальный проект */
+    .buttonTwo-blue button {
+        padding: 15px 92px 0px;
+        font-size: 21px;
+    }
+
+    .sliderDoYouKnow{
+        width: 313px;
+    }
+
+/* Хочу работать с профессионалами */
+    .buttonPro button {
+        padding: 15px 80px 0px;
+        font-size: 21px;
+    }
+
+/* Наша команда */
+    .carousel__prev {
+        left: 99px;
+    }
+    .carousel__next{
+        right: -5px;
+    }
+
+    .sliderTeam{
+        width: 262px;
+        margin: 0px 0px 0px 142px;
+    }
+
+/* Мы одни из немногих, кто имеет сертификаты
+и работает по ГОСТу */
+    .word__text p, .word__text span{
+        font-size: 23px;
+    }
+
+/* ОСтавить заявку */
+    .word__button button{
+        padding: 12px 61px 0px;
+        font-size: 21px;
+    }
+
+/* Карта */
+    .map{
+        width: 465px;
+    }
+
+    .map-responsive{
+        left:-52px;
+    }
+
+    .map-responsive iframe{
+        width: 322px;
+    }
+
+    .map__text{
+        margin-left: 243px;
+    }
+
+    #footer{
+        background-size: cover;
+    }
+
+    .footer p{
+      margin-left: 0px;
+      font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 549px) and (min-width: 500px){
+
+    header{
+        background-size: cover;
+    }
+
+    .number{
+        padding-bottom: 45px;
+    }
+
+    .number li{
+        text-align: center;
+    }
+
+    #second{
+        margin-top: 20px;
+        height: 1000px;
+    }
+
+    #block{
+        width: 463px;
+    }
+
+    .block__img-third{
+        margin-right: 0px;
+    }
+
+    .block__two{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .block__img-fourth {
+        margin-left: 176px;
+    }
+
+    .block__img-fife {
+        margin-left: 176px;
+    }
+
+    .block__img-six {
+        margin-left: 176px;
+    }
+
+/* меню */
+    .menu{
+        width: 96%;
+        bottom: -4px;
+    }
+
+    #active{
+        font-size: 12px;
+        padding: 19px 16px 0px 25px;
+    }
+
+    .menu ul li a{
+        font-size: 12px;
+        margin: 6px 5px 2px 2px;
+    }
+
+/* Заказать строительство дома! */
+    .order button{
+        padding: 0px 97px;
+        font-size: 19px;
+    }
+
+/* Наши работы */
+    .ourWorks__click-left{
+        left: 52px;
+    }
+
+    .sliderfirst{
+        width: 240px;
+        margin: 0px 0px 0px 109px;
+    }
+
+    .ourWorks__click-right{
+        left: 427px;
+    }
+
+/* Наши проекты */
+    .buttonOne-blue button{
+        font-size: 21px;
+    }
+
+    .slider {
+        width: 272px;
+        margin: 0px 0px 0px 72px;
+    }
+
+/* Наши проекты кнопка правая*/
+    .project__next {
+        right: 56px;
+    }
+
+    .project__prev {
+        left: 67px;
+    }
+
+/* Разработать уникальный проект */
+    .buttonTwo-blue button {
+        padding: 15px 98px 0px;
+        font-size: 21px;
+    }
+
+    .sliderDoYouKnow{
+        width: 313px;
+    }
+
+/* Хочу работать с профессионалами */
+    .buttonPro button {
+        padding: 15px 90px 0px;
+        font-size: 21px;
+    }
+
+/* Наша команда */
+    .carousel__prev {
+        left: 102px;
+    }
+    .carousel__next{
+        right: -5px;
+    }
+
+    .sliderTeam{
+        width: 245px;
+        margin: 0px 0px 0px 126px;
+    }
+
+/* Мы одни из немногих, кто имеет сертификаты
+и работает по ГОСТу */
+    .word__text p, .word__text span{
+        font-size: 23px;
+    }
+
+/* ОСтавить заявку */
+    .word__button button{
+        padding: 12px 61px 0px;
+        font-size: 21px;
+    }
+
+/* Карта */
+    .map{
+        width: 422px;
+    }
+
+    .map-responsive{
+        left:-41px;
+    }
+
+    .map-responsive iframe{
+        width: 276px;
+    }
+
+    .map__text{
+        margin-left: 200px;
+    }
+
+    #footer{
+        background-size: cover;
+    }
+
+    .footer p{
+        margin-left: 0px;
+        font-size: 18px;
+    }
+}
+
+/* ------------------------------------------------
+##Медиа для меню (гамбургер) 
+---------------------------------------------------*/
+ @media (max-width: 575px){
+
+    .menu ul li a {
+        font-size: 24px;
+        margin: 13px 5px 2px 2px; 
+    }  
+    .menuIcon{
+        display: block;
+        position: relative;
+        top: 4px;
+        z-index: 5;
+        height: 91%;
+        cursor: pointer;
+        /* width: 98%; */
+        border-radius:5px;
+        background: #ffb400;
+        text-align: center;
+    }
+    .menu{
+        display: none;
+        position: absolute;
+        z-index: 1;
+        bottom: 15px; 
+        max-width: 943px;
+        width: 94.6%;
+        height: 651%;
+        border-radius:5px;
+        background: #ffb400; 
+        /* margin: 6px 11px 2px 26px; */
+        color: black;
+        font-size: 24px;
+        font-family: 'BloggerSans';
+        text-align: center;
+        padding:0px 26px 0px;
+    }
+    #active{
+        max-width: 638px;
+        height: 30px;
+        border-bottom: 0px solid #000;
+        background: none;
+        font-size: 24px;
+    }
+     #active span{
+        border-bottom: 0px solid #000;
+
+     }
+    .menu ul{
+        display: block;
+
+    }
+    a{
+        border-bottom: 0px solid #000;
+    }
+} 
+
+@media (max-width: 480px){
+
+    .menu ul li a {
+        margin: 13px 5px 2px 2px;
+        font-size: 18px; 
+    } 
+    #active{
+        max-width: 638px;
+        height: 30px;
+        font-size: 18px;
+        background: none; 
+            /* border-bottom:none; */
+     }
+     .menu{
+        width: 91.9%;
+        height: 717%;
+     }
+}

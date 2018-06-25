@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="stylesheet" href="css/bootstrap.css" media="screen">
+	<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<!-- капусель slick -->
+ <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+</head>
+<body>
+	<script type="text/javascript">
+/* Слайдер Наши работы
+-------------------------------------------------------------- */
+		
+$(document).ready(function(){
+		$('.sliderfirst').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1, 
+  variableWidth: true,
+  nextArrow: '.ourWorks__click-right',
+  prevArrow: '.ourWorks__click-left',
+  responsive: [
+    {
+      breakpoint: 990, 
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 812, 
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 400, 
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    }
+  ]
+});
+});
+
+
+/* Слайдер Наши проекты
+-------------------------------------------------------------- */
+
+$(document).ready(function(){
+		$('.slider').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,               
+  dots: false,
+  arrows:false,
+  speed: 850,
+  variableWidth: true,  
+  centerMode: true,
+  arrows:true,
+  nextArrow: '.project__next',
+  prevArrow: '.project__prev',
+});
+});
+
+
+/* Слайдер А вы знали?
+-------------------------------------------------------------- */
+
+$(document).ready(function(){
+		$('.sliderDoYouKnow').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1, 
+  arrows:false,
+    dots: false,
+    infinite: true,  
+   arrows:true,
+  centerMode:true,
+  nextArrow: '.doYouNow__next',
+  prevArrow: '.doYouNow__prev',
+  responsive: [
+    {
+      breakpoint: 1024, 
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 992, 
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 812, 
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 768, 
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+
+    {
+      breakpoint: 664, 
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }, {
+      breakpoint: 480, 
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
+});
+
+
+/* Слайдер Наши команда
+-------------------------------------------------------------- */
+
+
+$(document).ready(function(){
+		$('.sliderTeam').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1, 
+
+  nextArrow: '.carousel__next',
+  prevArrow: '.carousel__prev',
+  responsive: [
+    {
+      breakpoint: 1024, 
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 812, 
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+     {
+      breakpoint: 575, 
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 400, 
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    }
+  ]
+});
+});
+/*$(document).ready(function(){
+$('.menuIcon').click(function(){
+	$('.menu').slideToggle;
+});
+});*/
+
+$(document).ready(function(){
+  
+   $(".menuIcon").click(function(){
+      $(".menu").slideToggle("slide");
+      
+   });
+
+});
+
+  </script>
+<section>
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3">
+					<div class="text">
+						<p>Строительство домов <br> под ключ</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<div class="logo">
+						<img src="img/logo.png">
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3">
+					<nav>
+						<ul class="number">
+							<li>+7 (978) 7885231</li>
+							<li>+7 (978) 7885231</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- меню -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<div class="menuIcon">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg> 
+					</div>
+						<div class="menu">
+							<ul>
+								<li><a href="#">Наши работы</a></li>
+								<li><a href="#">Наша команда</a></li>
+								<li><a href="#"  id="active">
+								<span>Хочу бесплатный проект</span></a></li>
+								<li><a href="#">Проекты</a></li>
+								<li><a href="#">Блог</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+	</header>
+</section>
+<!-- Синий блок с 6 картинками -->
+<section id="second">
+	<div class="container">
+		<div id="block">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3">
+					<div class="block"> 
+						<div class="block__img block__img-first">
+							<img src="img/block_first.png">
+							<p>Безпроцентная <br> рассрочка</p>
+						</div>
+					 </div> 
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4">
+					<div class="block">
+						<div class="block__img block__img-second">
+							<img src="img/block_second.png">
+							<p>Работа с материнским <br> капиталом</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-5">
+					<div class="block">
+						<div class="block__img block__img-third">
+							<img src="img/block_third.png">
+							<p>Поэтапная оплата <br> работы</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-5">
+					<div class="block__two">
+						<div class="block__img block__img-fourth">
+							<img src="img/block_fourth.png">
+							<p>Стоимость строительства <br> от 10 000 р/м2</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4">
+					<div class="block__two">
+						<div class="block__img block__img-fife">
+							<img src="img/block_fife.png">
+							<p>Команда профессионалов</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3">
+					<div class="block__two">
+						<div class="block__img block__img-six">
+							<img src="img/block_six.png">
+							<p>Своя техника, материалы <br>по себестоимости</p>
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="order">
+					<button><p>Заказать строительство дома!</p></button>
+				</div>
+		</div>
+	</div>	
+</section>
+<!-- Наши работы -->
+<section id="ourWorks">
+	<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<div class="ourWorks">
+						<p>Наши работы</p>
+					</div>
+				</div>
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="ourWorks__click-left left">
+							<img src="img/ourWorks__click-left.png">
+						</div>
+				<div class="sliderfirst">
+					<div class="work work-first"> 
+						<div class="work__foto">
+							<img src="img/work__f.jpg">
+							<div class="work__text">
+								<p>Дом из ракушечника <br>2 этажа</p>
+								<span>Начат: 10.03.2017</span><br>
+								<span>Закончен: 20.05.2018</span>
+							</div>
+						</div>
+					</div>			
+					<div class="work work-second"> 
+						<div class="work__foto">
+							<img src="img/work__s.jpg">
+							<div class="work__text">
+								<p>Дом из ракушечника <br>2 этажа</p>
+								<span>Начат: 10.03.2017</span><br>
+								<span>Закончен: 20.05.2018</span>
+							</div>
+						</div>
+					 </div>		
+					<div class="work"> 
+						<div class="work__foto">
+							<img src="img/work__t.jpg">
+							<div class="work__text">
+								<p>Дом из ракушечника <br>2 этажа</p>
+								<span>Начат: 10.03.2017</span><br>
+								<span>Закончен: 20.05.2018</span>
+							</div>
+						</div>
+					</div>
+					<div class="work"> 
+						<div class="work__foto">
+							<img src="img/work__t.jpg">
+							<div class="work__text">
+								<p>Дом из ракушечника <br>2 этажа</p>
+								<span>Начат: 10.03.2017</span><br>
+								<span>Закончен: 20.05.2018</span>
+							</div>
+						</div>
+					</div>
+				</div>			
+					<div class="ourWorks__click-right">
+						<img src="img/ourWorks__click-right.png">
+					</div>
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="buttonOne">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="buttonOne buttonOne-blue">
+					<button><p>Хочу проехаться по всем вашим строящимся объктам</p></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Наши проекты -->
+<section id="ourProjects">
+	<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<div class="ourProjects">
+						<p>Наши проекты</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="container">
+			<div class="row">
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+					<div class="project__prev">
+						<img src="img/project__prev.png">
+					</div>
+					<div class="slider">
+						<div class="project__foto">
+								<img src="img/work__s.jpg">
+								<div class="project__text">
+									<p>Проект 2</p>
+									<span>1 300 000 р</span><br>
+									<h6>50 м<sup>2</sup></h6>
+								</div>
+							</div>
+						<div class="project__foto">
+							<img src="img/work__t.jpg">
+							<div class="project__text">
+								<p>Проект 3</p>
+								<span>1 100 000 р</span><br>
+								<h6>38 м<sup>2</sup></h6>
+							</div>
+						</div>
+						<div class="project__foto">
+							<img src="img/work__f.jpg">
+							<div class="project__text">
+								<p>Проект 1</p>
+								<span>2 900 000 р</span><br>
+								<h6>90 м<sup>2</sup></h6>
+							</div>
+						</div>
+						<div class="project__foto">
+							<img src="img/work__s.jpg">
+							<div class="project__text">
+								<p>Проект 2</p>
+								<span>1 300 000 р</span><br>
+								<h6>50 м<sup>2</sup></h6>
+							</div>
+						</div>
+						<div class="project__foto">
+							<img src="img/work__f.jpg">
+							<div class="project__text">
+								<p>Проект 1</p>
+								<span>2 900 000 р</span><br>
+								<h6>90 м<sup>2</sup></h6>
+							</div>
+						</div>
+					</div>
+					<div class="project__next">
+						<img src="img/project__next.png">
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Кнопка Разработать уникальный проект -->
+<section id="buttonTwo">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="buttonTwo buttonTwo-blue">
+					<button><p>Разработать уникальный проект</p></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- А вы знали? -->
+<section id="doYouNow">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<div class="doYouNow">
+					<p>А вы знали?</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<div class="doYouNow__prev">
+					<img src="img/doYouNow__prev.png">
+				</div>
+					<div class="sliderDoYouKnow">
+						<div class="doYouNow__text">
+							<div class="doYouNow__foto">
+								<p>У дешевых строительных бригад отсутствует своя техника, что может спровоцировать задержку сроков</p>
+							</div>
+							<div class="doYouNow__more">
+								<p>Подробнее >>></p>
+							</div>
+						</div>
+						<div class="doYouNow__text">
+							<div class="doYouNow__foto">
+								<p>Компании, работающие с приезжими строительными бригадами, не показывают их лица потому, чтобы их потом не узнали</p>
+							</div>
+							<div class="doYouNow__more">
+								<p>Подробнее >>></p>
+							</div>
+						</div>
+						<div class="doYouNow__text">
+							<div class="doYouNow__foto">
+								<p>Экономия на строительных материалах опасна для дальнейшего проживания в построенном доме</p>
+							</div>
+							<div class="doYouNow__more">
+								<p>Подробнее >>></p>
+							</div>
+						</div>
+					<div class="doYouNow__text">
+							<div class="doYouNow__foto">
+								<p>У дешевых строительных бригад отсутствует своя техника, что может спровоцировать задержку сроков</p>
+							</div>
+							<div class="doYouNow__more">
+								<p>Подробнее >>></p>
+							</div>
+						</div>
+						<div class="doYouNow__text">
+							<div class="doYouNow__foto">
+								<p>Компании, работающие с приезжими строительными бригадами, не показывают их лица потому, чтобы их потом не узнали</p>
+							</div>
+							<div class="doYouNow__more">
+								<p>Подробнее >>></p>
+							</div>
+						</div>
+						<div class="doYouNow__text">
+							<div class="doYouNow__foto">
+								<p>Экономия на строительных материалах опасна для дальнейшего проживания в построенном доме</p>
+							</div>
+							<div class="doYouNow__more">
+								<p>Подробнее >>></p>
+							</div>
+						</div>
+					</div>
+					<div class="doYouNow__next">
+						<img src="img/doYouNow__next.png">
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Кнопка Хочу работать с профессионалами -->
+<section id="buttonOne__two">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="buttonPro">
+					<button><p>Хочу работать с профессионалами</p></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Наша команда -->
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="speech">
+					<p>Наша команда</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="carousel__prev">
+				<img src="img/prev1.png">
+			</div>
+				<div class="sliderTeam">
+					<div class="team">
+						<div class="team__foto">
+							<img src="img/Andrey.png">
+						</div>
+						<div class="team__text">
+							<p>Андрей <b style="color: #404b55">(прораб)</b></p>
+						</div>
+					</div>
+					<div class="team">
+						<div class="team__foto team__foto-move">
+							<img src="img/Petr.png">
+						</div>
+						<div class="team__text">
+							<p>Петр <b style="color: #404b55">(строитель)</b></p>
+						</div>
+					</div>
+					<div class="team">
+						<div class="team__foto team__foto-ignat">
+							<img src="img/Ignat.png">
+						</div>
+						<div class="team__text">
+							<p>Игнат <b style="color: #404b55">(сметчик)</b></p>
+						</div>
+					</div>
+					<div class="team">
+						<div class="team__foto team__foto-ignat">
+							<img src="img/Ignat.png">
+						</div>
+					<div class="team__text">
+						<p>Игнат <b style="color: #404b55">(сметчик)</b></p>
+					</div>
+				</div>	
+			</div>
+			<div class="carousel__next">
+				<img src="img/next1.png">
+			</div>
+		</div>
+	</div>
+</section>
+<section id="choice">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="speech">
+					<p>Вы еще не уверенны в выборе?</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-4">
+				<div class="choice"> 
+					<div class="choice__img">
+						<img src="img/choice__first.png">
+						<p>Мы работаем только с качественными <br> и лицензированными материалами</p>
+					</div>
+				</div> 
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4">
+				<div class="choice"> 
+					<div class="choice__img">
+						<img src="img/choice__second.png">
+						<p>С нами очень просто найти общий <br>язык - 10 лет на рынке строительства!<br> Мы подберем проект учтя все ваши пожелания! </p>
+					</div>
+				</div> 
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4">
+				<div class="choice"> 
+					<div class="choice__img">
+						<img src="img/choice__third.png">
+						<p>Адекватные, максимально короткие сроки строительства.<br>
+Материалы на объект вовремя доставляет наша специальная логическая служба</p>
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+</section>
+<section id="word">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+					<div class="word__text">
+						<p>Мы одни из немногих, кто имеет сертификаты<br>
+						<span>	и работает по ГОСТу</span></p>
+					</div>
+					<div class="word__button">
+						<button><p>Оставить заявку</p></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<section>
+	<div class="container">
+		<div class="row justify-content-center">
+				<div class="map">
+					<div class="row">
+						<div class="col-lg-8 col-md-7 col-sm-12">
+							<div class="map-responsive">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d710.0611131481676!2d33.51981932920604!3d44.6124766533903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409524ce817415dd%3A0xe544d7312c11a42!2zNTYsIDEwINC_0YDQvtGB0L8uINCd0LDRhdC40LzQvtCy0LAsINCh0LXQstCw0YHRgtC-0L_QvtC70YwgOTkwMjY!5e0!3m2!1sru!2sua!4v1526563258927" width="698" height="353" frameborder="0" style="border:0" allowfullscreen></iframe>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-5 col-sm-12">
+							<div class="map__text">
+								<p>Севастополь,<br>
+									ул.Нахимова 10, офис 56
+									<br><br><br>
+									+ 7 (978) 788 52 31<br>
+									+ 7 (978) 788 52 31
+									<br><br><br>
+									remontsevas@gmail.com </p>
+								<div class="map__button">
+									<br> 
+										<button>
+											<p>Заказать звонок</p>
+										</button>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="footer">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-2 col-md-4 col-sm-6">
+				<div class="footer__img">
+					<img src="img/footer.png">
+				</div>
+			</div>
+			<div class="col-lg-10 col-md-8 col-sm-6">
+				<div class="footer">
+					<p>Строительство домов под ключ</p>
+				</div>
+			</div>
+		</div>
+	</div>		
+</section>
+</body>
+</html>
